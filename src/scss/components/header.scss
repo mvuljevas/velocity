@@ -1,0 +1,13 @@
+.header {
+  background-color: $black;
+  border-bottom: 1px solid $accent-color;
+  color: $white;
+  display: flex;
+  height: $nav-height;
+  letter-spacing: $base-letter-spacing;
+  line-height: normal;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  z-index: 3000000;
+}

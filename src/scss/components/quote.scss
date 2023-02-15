@@ -1,0 +1,33 @@
+.quote {
+  align-items: center;
+  background: $black;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  max-width: 100%;
+  width: $grid-width;
+  border-radius: $radius-soft;
+
+  &__image {
+    border-radius: $radius-circle;
+    height: $avatar-size;
+    overflow: hidden;
+    width: $avatar-size;
+    margin-bottom: $spacing-base;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+
+  &__content {
+    text-align: center;
+  }
+
+  &__author {
+    color: $accent-color;
+    font-weight: 600;
+  }
+
+}
